@@ -155,3 +155,7 @@ which confirms the slice is unintentional.
 Changed `return [song.to_dict() for song in songs[:-1]]` to
 `return [song.to_dict() for song in songs]`. Verified that playlist ordering
 (by position column) is unaffected since the fix only removes the incorrect slice.
+
+## Git Log Screenshot
+
+![git log showing separate commits for each bug fix](git_log.png)
